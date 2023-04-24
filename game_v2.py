@@ -57,6 +57,7 @@ def random_predict(number:int = 1) -> int:
 
 # score_game(random_predict)
 
+
 def score_game(random_predict) -> int:
     count_ls = []
     np.random.seed(1)
