@@ -4,14 +4,13 @@
 
 import numpy as np 
 
-""" Рандомно угадываем число
+def random_predict(number:int = 1) -> int:
+    """ Рандомно угадываем число
     Args:
        number (int, optional): Загаданное число. Defaults to 1.
     Returns:
        int: Число попыток
-    """
-
-def random_predict(number:int = 1) -> int:
+    """    
     count, a, z = 0, 1, 101
     while True:
         count+=1
@@ -24,6 +23,8 @@ def random_predict(number:int = 1) -> int:
             a = predict_number
     return (count)
 
+    
+def score_game(random_predict) -> int:
     """За какое количество попыпоток в среднем угадывает за 1000 подходов наш алгоритм
 
      Args:
@@ -32,8 +33,6 @@ def random_predict(number:int = 1) -> int:
      Returns:
          int: среднее количество угадываний
      """
-    
-def score_game(random_predict) -> int:
     count_ls = []
     np.random.seed(1)
     random_array = np.random.randint(1, 101, size=1000)
