@@ -19,7 +19,7 @@ def random_predict(number:int = 1) -> int:
         if number == predict_number:
             break 
         if (number < predict_number): 
-            z = predict_number+1
+            z = predict_number
         if (number > predict_number):
             a = predict_number
     return (count)
