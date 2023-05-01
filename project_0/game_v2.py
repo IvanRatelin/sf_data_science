@@ -46,3 +46,4 @@ def score_game(random_predict) -> int:
 if __name__ == '__main__':
     score_game(random_predict)
 
+# пометка для себя (УДАЛИТЬ) среда разработки дома 3.10.6
