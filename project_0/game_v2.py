@@ -4,7 +4,6 @@
 
 import numpy as np 
 
-
 """ Рандомно угадываем число
     Args:
        number (int, optional): Загаданное число. Defaults to 1.
@@ -14,7 +13,6 @@ import numpy as np
 
 def random_predict(number:int = 1) -> int:
     count, a, z = 0, 1, 101
-
     while True:
         count+=1
         predict_number = np.random.randint(a, z) 
@@ -24,7 +22,6 @@ def random_predict(number:int = 1) -> int:
             z = predict_number+1
         if (number > predict_number):
             a = predict_number
-     
     return (count)
 
     """За какое количество попыпоток в среднем угадывает за 1000 подходов наш алгоритм
