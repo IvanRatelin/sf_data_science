@@ -1,4 +1,4 @@
-# Проект 0. Игра: Удадай число
+# Проект 0. Игра: Угадай число
 
 ## Оглавление
 [1. Описание проекта](https://github.com/IvanRatelin/sf_data_science/blob/main/project_0/README.md#Описание-прокта)
