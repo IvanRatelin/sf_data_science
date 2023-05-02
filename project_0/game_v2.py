@@ -7,36 +7,41 @@ import numpy as np
 
 def random_predict(number:int = 1) -> int:
     """ Рандомно угадываем число
+
     Args:
        number (int, optional): Загаданное число. Defaults to 1.
     Returns:
        int: Число попыток
     """    
-    count, a, z = 0, 1, 101
+    # присваеваем значения соответственно для счетчика, нижнего и верхнего диапазонов угадываемого числа
+    count, a, z = 0, 1, 101 
     while True:
-        count += 1
+        # считаем попытки
+        count += 1 
+        # "угадываем" нужное число с помощью случайного
         predict_number = np.random.randint(a, z) 
-        if number == predict_number:
+        # если угадали, завершаем цикл
+        if number == predict_number: 
             break 
-        if number < predict_number: 
-            z = predict_number
-        if number > predict_number:
-            a = predict_number
-    return (count)
+        if number < predict_number: # искомое число меньше предложенного
+            z = predict_number # тогда присваевыем верхнему диапазону наше случайное число, смысла загадывать больше него уже нет
+        if number > predict_number: # искомое число больше предложенного
+            a = predict_number # тогда присваевыем нижнему диапазону наше случайное число, смысла загадывать больше него уже нет
+    return (count) # возвращаем количество попыток
 
     
 def score_game(random_predict) -> int:
-    """За какое количество попыпоток в среднем угадывает за 1000 подходов наш алгоритм
+    """За какое количество попыпоток в среднем угадывает 
+    за 1000 подходов наш алгоритм
 
-     Args:
-         random_predict (_type_): функция угадывания
-
-     Returns:
-         int: среднее количество угадываний
+    Args:
+        random_predict (_type_): функция угадывания
+    Returns:
+        int: среднее количество угадываний
     """
-    count_ls = []
-    np.random.seed(1)
-    random_array = np.random.randint(1, 101, size=1000)
+    count_ls = [] # список количества попыток
+    np.random.seed(1) # фиксируем значения случайной последовательности
+    random_array = np.random.randint(1, 101, size=1000) # присваеваем списку random_array попытки в количестве 1000 штук с помощью функции randint
     for number in random_array:
         count_ls.append(random_predict(number))
     score = int(np.mean(count_ls))
