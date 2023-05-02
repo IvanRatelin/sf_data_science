@@ -35,11 +35,13 @@
 
 ### Краткая информация о данных
 ....
+
 :arrow_up:[к оглавлению](https://github.com/IvanRatelin/sf_data_science/blob/main/project_0/README.md#Оглавление)
 ### Этапы работы над проектом
 ....
 
 :arrow_up:[к оглавлению](https://github.com/IvanRatelin/sf_data_science/blob/main/project_0/README.md#Оглавление)
+
 ### Результат
 ....
 
@@ -47,5 +49,7 @@
 ### Выводы
 ....
 
-:arrow_up:[к оглавлению](https://github.com/IvanRatelin/sf_data_science/blob/main/project_0/README.md#Оглавление)
-:star:
+:arrow_up:
+[к оглавлению](https://github.com/IvanRatelin/sf_data_science/blob/main/project_0/README.md#Оглавление)
+
+Если информация по этому проекту покажется вам интересной или полезной, то я буду очень вам благодарен, если отметите репозиторий и профиль :star::star::star:-дами.
