@@ -1,13 +1,10 @@
 # Проект 0. Игра: Угадай число
 
 ## Оглавление
-[1. Описание проекта](https://github.com/IvanRatelin/sf_data_science/blob/main/project_0/README.md#Описание-прокта)
-<br>
-[2. Какой кейс решаем](https://github.com/IvanRatelin/sf_data_science/blob/main/project_0/README.md#Какой-кейс-решаем)
-<br>
-[3. Краткая информация о данных](https://github.com/IvanRatelin/sf_data_science/blob/main/project_0/README.md#Краткая-информация-о-данных)
-<br>
-[4. Этапы работы над проектом](https://github.com/IvanRatelin/sf_data_science/blob/main/project_0/README.md#Этапы-работы-над-проектом)
+[1. Описание проекта](https://github.com/IvanRatelin/sf_data_science/blob/main/README.md#Описание-прокта)  
+[2. Какой кейс решаем](https://github.com/IvanRatelin/sf_data_science/blob/main/README.md#Какой-кейс-решаем)  
+[3. Краткая информация о данных](https://github.com/IvanRatelin/sf_data_science/blob/main/project_0/README.md#Краткая-информация-о-данных)  
+[4. Этапы работы над проектом](https://github.com/IvanRatelif_data_science/blob/main/project_0/README.md#Этапы-работы-над-проектом)
 <br>
 [5. Результат](https://github.com/IvanRatelin/sf_data_science/blob/main/project_0/README.md#Результат)
 <br>
@@ -35,8 +32,8 @@
 
 Учимся писать хороший код на Python.
 
-:arrow_up:
-[к оглавлению](https://github.com/IvanRatelin/sf_data_science/blob/main/project_0/README.md#Оглавление)
+:arrow_up:  
+[к оглавлению](https://github.com/IvanRatelin/sf_data_science/blob/main/project_0/README.md#Оглавление)  
 
 ### Краткая информация о данных
 Мы не используем внешние данные и генерируем случайные числа с помощью модуля numpy, используя заданный seed. Затем мы вычисляем среднее количество попыток для угадывания случайно сгенерированных чисел в заданном интервале.
@@ -54,9 +51,7 @@
 :arrow_up:[к оглавлению](https://github.com/IvanRatelin/sf_data_science/blob/main/project_0/README.md#Оглавление)
 
 ### Результат
-После завершения проекта была написана функция для угадывания чисел и функция для определения среднего количества попыток для угадывания чисел в заданном интервале. Алгоритм данной программы угадывает число в среднем за 8 попыток при 1000 повторений.
-<br>
-Код был проверен на соответствие стандарту PEP8 и загружен в репозиторий на GitHub. Был создан файл README.md с описанием проекта, этапов работы над проектом, результатами и выводами.
+После завершения проекта была написана функция для угадывания чисел и функция для определения среднего количества попыток для угадывания чисел в заданном интервале. Алгоритм данной программы угадывает число в среднем за 8 попыток при 1000 повторений.  Код был проверен на соответствие стандарту PEP8 и загружен в репозиторий на GitHub. Был создан файл README.md с описанием проекта, этапов работы над проектом, результатами и выводами.
 
 :arrow_up:[к оглавлению](https://github.com/IvanRatelin/sf_data_science/blob/main/project_0/README.md#Оглавление)
 ### Выводы
